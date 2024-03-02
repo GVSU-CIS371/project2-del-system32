@@ -35,8 +35,29 @@
         // - "Clothing" should display all products categorized as "Clothing."
         // - "Groceries" should display all products categorized as "Groceries."
         // - "Best Seller" should display all products with a rating greater than 4.5.
-
+        const elecLink = document.getElementById('electronics');
+        elecLink.addEventListener('click', () => {
+          const elecProds = getByCategory('Electronics');
+          renderProducts(elecProds);
+        })
         
+        const clothLink = document.getElementById('clothing');
+        clothLink.addEventListener('click', () => {
+          const clothProds = getByCategory('Clothing');
+          renderProducts(clothProds);
+        })
+
+        const grocLink = document.getElementById('groceries');
+        grocLink.addEventListener('click', () => {
+          const grocProds = getByCategory('Groceries');
+          renderProducts(grocProds);
+        })
+
+        const rateLink = document.getElementById('bestSeller');
+        rateLink.addEventListener('click', () => {
+          const rateProds = getByRating(4.5);
+          renderProducts(rateProds);
+        })
         // your code
       </script>
     </main>
