@@ -36,12 +36,41 @@
         // - "Groceries" should display all products categorized as "Groceries."
         // - "Best Seller" should display all products with a rating greater than 4.5.
 
-        
-        // your code
+        const electronicsLink = document.getElementById('electronics');
+        if (electronicsLink) {
+            electronicsLink.addEventListener('click', () => {
+               getByCategory('Electronics');
+            
+            });
+        }
+
+        const clothingLink = document.getElementById('clothing');
+        if (clothingLink) {
+            clothingLink.addEventListener('click', () => {
+                 getByCategory('Clothing');
+                
+            });
+        }
+
+        const groceriesLink = document.getElementById('groceries');
+        if (groceriesLink) {
+            groceriesLink.addEventListener('click', () => {
+                 getByCategory('Groceries');
+                
+            });
+        }
+
+        const bestSellerLink = document.getElementById('bestSeller');
+        if (bestSellerLink) {
+            bestSellerLink.addEventListener('click', () => {
+                 getByRating(4.5);
+                
+            });
+        }
       </script>
     </main>
     <footer>
-      <p>© 2024 My Online Store. All rights reserved.</p>
+      <p>Â© 2024 My Online Store. All rights reserved.</p>
     </footer>
   </div>
 </body>
