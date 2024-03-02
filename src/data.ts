@@ -27,7 +27,6 @@ const products: Product[] = [
             "https://m.media-amazon.com/images/I/31TcnQiBTpL._AC_UF894,1000_QL80_.jpg",
         category: "Electronics",
     },
-    // More Electronics
     {
         name: "SmartTech Pro Phone",
         description:
@@ -38,7 +37,26 @@ const products: Product[] = [
         image: "https://m.media-amazon.com/images/I/61L1ItFgFHL.jpg",
         category: "Electronics",
     },
-    // ... Add more electronics items ...
+    {
+        name: "Samsung TV - 75'",
+        description:
+            "See how Crystal UHD with Smart TV elevates what you watch—at a value you’ll love. Go beyond HDTV to enjoy your content in 4K resolution, and in PurColor. And with Smart TV powered by Tizenbuilt in, it’s easy to find and stream the latest shows and movies in just a few clicks. ",
+        price: 550,
+        rating: 4.8,
+        stock: 5,
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6514/6514052_sd.jpg",
+        category: "Electronics",
+    },
+    {
+        name: "iPad Pro 12.9in",
+        description:
+            "Astonishing performance. Incredibly advanced displays. Superfast wireless connectivity. Next-level Apple Pencil capabilities. Powerful new features in iPadOS. The ultimate iPad experience.",
+        price: 1100,
+        rating: 3.4,
+        stock: 3,
+        image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202212?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1667594167534",
+        category: "Electronics",
+    },
     {
         name: "Rapid Dual USB-C Charger",
         description:
@@ -74,7 +92,6 @@ const products: Product[] = [
             "https://benzakdenimdevelopers.com/cdn/shop/products/BDD-006-loomstate-denim-15-oz-RHT-0_720x.jpg?v=1664551915",
         category: "Clothing",
     },
-    // ... Add more clothing items ...
     {
         name: "PatternPop Fancy Socks",
         description:
@@ -84,6 +101,28 @@ const products: Product[] = [
         stock: 7,
         image:
             "https://goldiesocks.com/cdn/shop/products/mens-sock-argyle-blue-goldie-socks_540x.jpg?v=1541354007",
+        category: "Clothing",
+    },
+    {
+        name: "GVSU Hoodie",
+        description:
+            "Put your Lakers spirit on display in this Grand Valley State Lakers Long Sleeve Hoodie! You'll be cozy on game day in this GVSU Lakers Mens Grey Arch Twill Hooded Sweatshirt. This Lakers Long Sleeve Hoodie features a team name arched with twill patch on front chest. Wear your Grand Valley State Lakers spirit with pride in this great Mens Hooded Sweatshirt!",
+        price: 65,
+        rating: 4.7,
+        stock: 5,
+        image:
+            "https://media.rallyhouse.com/homepage/14756455-1.jpg?tx=f_auto,c_fit,w_730,h_730",
+        category: "Clothing",
+    },
+    {
+        name: "Dolce & Gabbana Leopard-Print Swim Trunks",
+        description:
+            "Men's Dolce & Gabbana Leopard-print Swim Trunks - Natural Care instructions: hand wash. Elasticated drawstring waist. Made in italy.",
+        price: 437,
+        rating: 5,
+        stock: 1,
+        image:
+            "https://th.bing.com/th?id=OPHS.0w3k5FaGQ%2bNHIg474C474&w=592&h=550&o=5&dpr=1.5&pid=21.1",
         category: "Clothing",
     },
 
@@ -117,6 +156,28 @@ const products: Product[] = [
         stock: 56,
         image:
             "https://www.farmfreshnuts.com/wp-content/uploads/2018/02/Cashews-DRS.jpg",
+        category: "Groceries",
+    },
+    {
+        name: "Kraft Mac n' cheese",
+        description:
+            "Help yourself to a bowl of comfort. Kraft Thick 'n Creamy Mac & Cheese Dinner is a convenient boxed dinner. Kids and adults love the delicious taste of macaroni with cheesy goodness.",
+        price: 5.80,
+        rating: 5,
+        stock: 234,
+        image:
+            "https://i5.walmartimages.com/seo/Kraft-Thick-n-Creamy-Mac-N-Cheese-Macaroni-and-Cheese-Dinner-7-25-oz-Box_c179a0ef-5742-410e-b0d1-838c849c64d6.49b53c724215d616892cc507affbde87.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+        category: "Groceries",
+    },
+    {
+        name: "Sushi Spring Rolls",
+        description:
+            "Sushi Spring Roll - 20 ct is a delicious candy that will make you feel like you're eating sushi. It's perfect for anyone who loves the taste of sushi but doesn't want to go through the hassle of making it themselves.",
+        price: 5.09,
+        rating: 4.2,
+        stock: 40,
+        image:
+            "https://th.bing.com/th?id=OPHS.jXbPumpCbJRYGQ474C474&w=592&h=550&o=5&dpr=1.5&pid=21.1",
         category: "Groceries",
     },
 ];
